@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6fvnwgbup8ei"]
+
+[ext_resource type="PackedScene" uid="uid://dws0vtdxugsrw" path="res://art/animal/Rig Chicken_out/untitled.glb" id="1_87tyg"]
+
+[node name="untitled" instance=ExtResource("1_87tyg")]
+
+[node name="Skeleton3D" parent="Armature" index="0"]
+bones/2/position = Vector3(9.50645e-07, 125.334, -11.4863)
+bones/3/position = Vector3(0, 77.0282, -108.96)
+bones/5/position = Vector3(0, 77.0705, -1.96538)

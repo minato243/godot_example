@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://calotsms7cumt"]
+
+[ext_resource type="PackedScene" uid="uid://dke8ndei7db4j" path="res://Mouse.tscn" id="1_0niux"]
+[ext_resource type="Script" path="res://Mouse2.gd" id="2_eujuc"]
+
+[node name="Node3D" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.256604, -0.174696, 0.248933)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 5, 5)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0)
+
+[node name="walking" parent="." instance=ExtResource("1_0niux")]
+script = ExtResource("2_eujuc")

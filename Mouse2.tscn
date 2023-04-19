@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cw163ok7lkqhl"]
+
+[ext_resource type="PackedScene" path="res://art/player/walking.glb" id="1_fi6io"]
+[ext_resource type="Script" path="res://Mouse.gd" id="2_fmdfx"]
+
+[node name="Mouse2" type="Node3D"]
+
+[node name="walking" parent="." instance=ExtResource("1_fi6io")]
+script = ExtResource("2_fmdfx")
